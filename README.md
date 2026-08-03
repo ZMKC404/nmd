@@ -1,65 +1,50 @@
-# nmd — 万物转 Markdown 技能库
+# Nothing MD
 
-**一个使命：任何格式 → 结构化 Markdown 语料。**
+**Nothing but Markdown.**
 
-当前已发布：
+<br>
 
-| Skill | 输入 | 状态 |
-|---|---|---|
-| `nmd-mp4` | 音视频（mp4/m4a/wav/mov…） | ✅ 已实证（62 视频 / 16G 全程跑通） |
-| `nmd-pdf` | PDF / Word | 🚧 规划中 |
-| `nmd-img` | 图片 / 截图 | 🚧 规划中 |
+凌晨两点。
 
-## nmd-mp4：音视频 → 语料包
+你打开通义听悟网页版，第四十七次拖拽视频。
+浏览器标签页开了十二个。
+赠送的转录时长还剩 800 分钟。
 
-```
-源视频 → ffmpeg 提音频 → 通义听悟网页版批量转写 → 内部API抓稿
-       → LLM精校 → LLM精华 → 场景索引
-```
+而你只想把昨天那个 20 分钟的分享会，
+变成一段能搜索的文字。
 
-- **零 API 费用**：用通义听悟网页版会员时长，不碰付费 OpenAPI
-- **全实证流程**：上传/抓稿的每个接口、每个坑都来自真实跑通的批量任务
-- **产出五层语料**：音频 → 原始转写 → 精校稿 → 精华稿 → 实战场景索引
+<br>
 
-## 安装
+视频是信息的坟墓。
+你收藏了，你焦虑了，
+你从未真正拥有过里面的知识。
 
-一行命令（自动探测技能目录）：
+一段 Markdown。
+可搜索，可编辑，可拼接，可丢弃。
+知识终于属于你了。
+
+<br>
+
+你只用说一句话：
+
+「把那个课程变成我的笔记。」
+
+剩下的，交给 Agent。
+
+<br>
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ZMKC404/nmd/main/install.sh | bash
 ```
 
-备选方式：
+<br>
 
-```bash
-# skills.sh 生态
-npx skills add ZMKC404/nmd
+如果你也有一个文件夹，叫「稍后看」，
+里面躺着 100 个从未打开的视频——
 
-# 手动
-git clone --depth 1 https://github.com/ZMKC404/nmd.git
-cp -r nmd/skills/nmd-mp4 ~/.agents/skills/   # 或你的 agent 技能目录
-```
+现在，可以让 Agent 帮你把它们，
+一个一个，变成文字了。
 
-## 使用
+<br>
 
-安装后对你的 agent 说人话即可触发：
-
-> 「nmd-mp4，把 ~/下载/某某课程 转成语料包」
-> 「批量转写这个目录的视频，输出精校稿 md」
-
-## 前置依赖
-
-- `ffmpeg`、`google-chrome`、`agent-browser`（npm i -g agent-browser）
-- 通义听悟网页版账号（首次使用需在弹出的调试浏览器里扫码登录一次）
-
-## 仓库结构
-
-```
-skills/nmd-mp4/
-├── SKILL.md          # 全流程 + 已验证的坑清单
-└── prompts/          # S4 精校 / S5 精华 / S6 索引 的精简提示词模板
-```
-
-## License
-
-MIT
+**Nothing but Markdown.**
