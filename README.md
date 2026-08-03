@@ -4,15 +4,6 @@
 
 <br>
 
-2026 年，AI 每天产生十亿段内容。
-
-但真正的知识，仍然只存在于两种格式里：
-
-Markdown，
-和还没有被转成 Markdown 的东西。
-
-<br>
-
 凌晨两点。
 
 你打开通义听悟网页版，第四十七次拖拽视频。
@@ -34,17 +25,7 @@ Markdown，
 
 <br>
 
-它把视频变成了 Markdown。
-
-但如果你还想让它读懂这些笔记，
-在每个清晨，把你真正需要回顾的那一段，
-轻轻放在你面前——
-
-那是另一个故事了。
-
-<br>
-
-此刻，你只用说一句话：
+你只用说一句话：
 
 「把那个课程变成我的笔记。」
 
@@ -55,22 +36,6 @@ Markdown，
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ZMKC404/nmd/main/install.sh | bash
 ```
-
-<br>
-
----
-
-<br>
-
-nmd 是一个工具家族。
-
-`nmd-mp4` 是第一位成员。
-音视频 → Markdown，已开刃。
-
-PDF、图片、网页——
-每一把，都在锻。
-
-每一个，都是 Nothing but X 的一个面向。
 
 <br>
 
